@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 6
+title: Human-AI Coordination
 description: a project with no image
 img:
 importance: 4

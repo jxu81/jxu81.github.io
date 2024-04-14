@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>UPS Advanced Technology Group</p>
+  #   <p>35 Glenlake Parkway NE</p>
+  #   <p>Atlanta, GA 30328</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Scientist at the [AI Hub](https://www.gatech.edu/news/2023/06/06/ai-hub-georgia-tech-unite-campus-artificial-intelligence-rd-and-commercialization) at [Georgia Tech](https://www.gatech.edu/). My current research interests are at the intersection of Human-AI Interaction, Conversational AI, VR/AR/MR and, Multi-agent Reinforcement Learning. I earned my Ph.D. in Robotics from Georgia Tech.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I was a Robotics Technical Fellow in the [Advanced Technology Group](https://about.ups.com/us/en/our-stories/innovation-driven/atg-test-labs.html) at UPS where I conducted research on the applications of robotics and automation across various business units of the logistics and supply chain industry. Additionally, I led strategic initiatives and roadmaps for multiple robotics projects for UPS R&D, including robotics digital twin/simulation, automated truck loading and unloading systems and humanoid robots.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My latest CV is available upon request.

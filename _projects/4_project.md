@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: Robot Therapist
 description: another without an image
 img:
 importance: 3
