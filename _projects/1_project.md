@@ -20,14 +20,20 @@ Robots (AGVs, AMRs, Quadcopters/Drones, Quadrupeds, Humanoids, and more), regard
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/SPOT_1.png" title="SPOT - Indoor" class="img-fluid rounded z-depth-1" %}
+        <figure>
+        {% include video.liquid path="assets/video/spot_video.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true%}
+         <figcaption>the ATG SPOT robot.</figcaption>
+        </figure>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        <figure>
         {% include figure.liquid loading="eager" path="assets/img/SPOT_map.png" title="SPOT - Indoor" class="img-fluid rounded z-depth-1" %}
+        <figcaption>3D point-cloud of the ATG office</figcaption>
+        </figure>
     </div>
 </div>
 <div class="caption">
-    Indoor navigation. Left: the ATG SPOT robot. Right: 3D point-cloud of the ATG office
+    Indoor use case: navigation
 </div>
 
 
