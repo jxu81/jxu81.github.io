@@ -2,7 +2,7 @@
 layout: page
 title: ATG Projects
 description: R&D projects at UPS Advanced Technology Group, 2023-2024
-img: assets/img/UCR.png
+img: assets/img/nvidia5.png
 importance: 1
 category: work
 related_publications: false
@@ -11,7 +11,7 @@ related_publications: false
 Robots (AGVs, AMRs, Quadcopters/Drones, Quadrupeds, Humanoids, and more), regardless its form factor, hold immense potential for addressing the global shortage of human labor and enhancing efficiency within the supply chain and logistics industry. A specific example (shown below) is the use case of a SPOT robot for last-mile delivery, designed and customized by the ATG team at UPS.  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/SPOT.png" title="SPOT - Outdoor" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/spot1.png" title="SPOT - Outdoor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -20,20 +20,14 @@ Robots (AGVs, AMRs, Quadcopters/Drones, Quadrupeds, Humanoids, and more), regard
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <figure>
-        {% include video.liquid path="assets/video/spot_video.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true%}
-         <figcaption>the ATG SPOT robot.</figcaption>
-        </figure>
+        {% include figure.liquid loading="eager" path="assets/img/spot2.png" title="SPOT - Indoor" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <figure>
-        {% include figure.liquid loading="eager" path="assets/img/SPOT_map.png" title="SPOT - Indoor" class="img-fluid rounded z-depth-1" %}
-        <figcaption>3D point-cloud of the ATG office</figcaption>
-        </figure>
+        {% include figure.liquid loading="eager" path="assets/img/spot3.png" title="SPOT - Indoor" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Indoor use case: navigation
+    Indoor use case
 </div>
 
 
@@ -46,7 +40,7 @@ In the future, we envision a warehouse where human workers and robots work toget
 We put this idea into action by implementing the system design outlined below on the SPOT robot and conducted tests at the ATG office. During testing, we found that the latency of both the speech recognition and response models (LLM) is too long, significantly impacting the user experience. Our next step for this project is to deploy LLMs on edge devices to optimize latency.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/SPOT_System.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/spot4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -170,7 +164,7 @@ Previews of these projects are provided below -
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/digit1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/nvidia1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -178,7 +172,7 @@ Previews of these projects are provided below -
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/digit2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/nvidia2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -187,10 +181,10 @@ Previews of these projects are provided below -
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/digit3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/nvidia3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/digit4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/nvidia4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -200,7 +194,7 @@ Previews of these projects are provided below -
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/UCR.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/nvidia5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
