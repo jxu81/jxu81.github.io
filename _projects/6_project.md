@@ -2,7 +2,7 @@
 layout: page
 title: Human-Robot Collaboration
 description: a game-theoretical approach to human-robot interaction
-img: assets/img/bayes.png
+img: assets/img/6.bayes.png
 importance: 4
 category: work
 related_publications: true
@@ -27,13 +27,12 @@ Humans frequently engage in activities with others in shared spaces, such as dri
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Bayes2.png" title="Overview image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/6.Bayes2.png" title="Overview image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     In a collaborative pick-and-place task scenario, multiple agents, whether human or artificial, work together to select objects from one location and transport them to another predetermined location. This task often requires coordination, communication, and cooperation among the agents to successfully accomplish the goal.
 </div>
-
 
 
 For more information, please check out our talk at [RSS 2020](https://roboticsconference.org/2020/program/papers/42.html) and our publications {% cite bansal2022bayes isbell:pplayw:2021 bansal2020bayesian %} 

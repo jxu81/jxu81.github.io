@@ -2,7 +2,7 @@
 layout: page
 title: ATG Projects
 description: R&D projects at UPS Advanced Technology Group
-img: assets/img/nvidia5.png
+img: assets/img/nvidia5.jpg
 importance: 1
 category: work
 related_publications: false
