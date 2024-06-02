@@ -38,9 +38,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Scientist II
-      institution: Georgia Institute of Technology
-      year: 2024 - Present
+    # - title: Research Scientist II
+    #   institution: Georgia Institute of Technology
+    #   year: 2024 - Present
       # description:
       #   - Description 1.
       #   - Description 2.

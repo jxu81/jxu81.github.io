@@ -67,9 +67,7 @@ The Grabing game requires children to grab an object and then drop at a target l
 </div>
 
 ## The Robots
-In this system, we used a 3D-printed 7 DoF robot (as shown below).
-<!-- 
-## The AI Agent Therapist -->
+In this project, we collaborate with [Hello Robot](https://www.hello-robo.com/) to design a 3D-printed 7-DoF MAKI robot.  We are incorporating state-of-the-art language models to enhance engagement and interaction experiences.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -77,7 +75,7 @@ In this system, we used a 3D-printed 7 DoF robot (as shown below).
     </div>
 </div>
 <div class="caption">
-    Prototypes of the Maki Robot
+    Prototypes of the MAKI Robot 
 </div>
 
 

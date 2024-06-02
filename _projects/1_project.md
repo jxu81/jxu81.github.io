@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ATG Projects
-description: R&D projects at UPS Advanced Technology Group, 2023-2024
+description: R&D projects at UPS Advanced Technology Group
 img: assets/img/nvidia5.png
 importance: 1
 category: work
@@ -146,7 +146,6 @@ This project aims to explore and evaluate the current state of reinforcement lea
 </div>
 
 
-
 ## 3. A New Robot for Loading UPS Delivery Vehicle
 [Package car loading/unloading](https://www.youtube.com/watch?v=m3tHZ_WxZsc) activity is not just a significant annual labor expense (approximately $1.8 billion) but also one of the most complex automation challenges for UPS and the logistics industry overall. Typically, this process involves a human worker retrieving a package from the conveyor belt, reading its label, identifying the corresponding package car, and then placing the package in the designated area within the car. To tackle this challenge, I devised a method that utilizes a lifting robot and a telescopic conveyor to automatically load packages from the metro belt. This invention has been submitted to the patent office under the title "Loading Objects into a Storage Area in an Automated or Semiautomated Manner."
 
@@ -160,7 +159,7 @@ The goal of this project was to develop a robotics simulation that closely mimic
 - Potential for developing computer vision algorithms and synthetic data generation to enhance our robot capabilities.
 - Assist in visualizing future scenarios and planning for long-term robotics projects to ensure strategic alignment and successful implementation. 
 
-Previews of these projects are provided below -
+Previews of this project:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -198,7 +197,7 @@ Previews of these projects are provided below -
     </div>
 </div>
 <div class="caption">
-    Simulated Pre-load Operation using NASA Valkyrie, made by Under Control Robotics. 
+    Simulated Pre-load Operation using NASA Valkyrie (Credit  Under Control Robotics). 
 </div>
 
 

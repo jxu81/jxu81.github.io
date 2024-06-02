@@ -1,80 +1,44 @@
 ---
 layout: page
-title: Human-AI Coordination
-description: a project with no image
-img:
+title: Human-Robot Collaboration
+description: a game-theoretical approach to human-robot interaction
+img: assets/img/bayes.png
 importance: 4
-category: fun
+category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Humans frequently engage in activities with others in shared spaces, such as driving in traffic, shopping at a grocery store, or cooking in a shared kitchen. These activities are typically characterized by the presence of individual goals rather than being purely competitive or purely cooperative. We refer to such activities, where individually motivated agents perform tasks in shared environments, as parallel play. As robots become increasingly prevalent in our daily lives, it is essential for them to be capable of participating in parallel play activities with humans, seamlessly integrating into these shared spaces and contributing to the dynamic yet individually driven nature of these tasks. In this work, we explore game-theoretical approaches to solve multi-agent interaction problems with a focus on efficiency and safety. We developed Bayes–Nash, a Bayesian inference algorithm for Nash equilibrium selection in human-robot interaction. Our findings indicate that using this Bayesian approach can significantly reduce collisions and improve task efficiency compared to traditional methods. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/driving.png" title="Scenario 1: driving in traffic scenario" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shopping.png" title="Scenario 2: shopping at a grocery store" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cooking.png" title="Scenario 3:cooking in a shared kitchen" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Applications of the Bayes-Nash Algorithm: navigating traffic (left),  shopping at a grocery store (middle), cooking in a shared kitchen (right).
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Bayes2.png" title="Overview image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    In a collaborative pick-and-place task scenario, multiple agents, whether human or artificial, work together to select objects from one location and transport them to another predetermined location. This task often requires coordination, communication, and cooperation among the agents to successfully accomplish the goal.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+For more information, please check out our talk at [RSS 2020](https://roboticsconference.org/2020/program/papers/42.html) and our publications {% cite bansal2022bayes isbell:pplayw:2021 bansal2020bayesian %} 
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+
+
