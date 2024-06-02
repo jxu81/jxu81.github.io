@@ -197,7 +197,7 @@ Previews of this project:
     </div>
 </div>
 <div class="caption">
-    Simulated Pre-load Operation using NASA Valkyrie (Credit  Under Control Robotics). 
+    Simulated Pre-load Operation using NASA Valkyrie, made by Under Control Robotics. 
 </div>
 
 
