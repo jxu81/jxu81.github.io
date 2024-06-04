@@ -3,7 +3,7 @@ layout: page
 title: Human-Robot Trust
 description: Towards Trustworthy AI System
 img: assets/img/trust.png
-importance: 3
+importance: 4
 category: work
 related_publications: true
 ---

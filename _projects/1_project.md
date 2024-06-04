@@ -49,9 +49,9 @@ We put this idea into action by implementing the system design outlined below on
 
 
 ## 2. Humanoid Robots
-Humanoid robots have the potential to become the next widely adopted comsumer devices after smartphones. There are several potential benefits of incorporating humanoids in UPS warehouses [For example, this](https://www.figure.ai/master-plan). 
+Humanoid robots have the potential to become the next widely adopted comsumer devices after smartphones. There are several potential benefits of incorporating humanoids in UPS warehouses, such as increased efficiency, enhanced safety, cost savings, etc.
 
-This project aims to explore and evaluate the current state of reinforcement learning on humanoids robot. In particular, we trained Unitree Humanoid H1 to learn basic locommotion and manipulation skills using [HumanoidBench by Sferrazza et al.](https://arxiv.org/abs/2403.10506). These agents are trained using TD-MPC algorithms on GPU for hours and results are shown below.
+This project aims to explore and evaluate the current state of reinforcement learning on humanoids robot. In particular, we trained Unitree Humanoid H1 to learn basic locommotion and manipulation skills (e.g. crawl, stand, walk) using [HumanoidBench by Sferrazza et al.](https://arxiv.org/abs/2403.10506). These agents are trained using TD-MPC algorithms on GPU for hours and results are shown below.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

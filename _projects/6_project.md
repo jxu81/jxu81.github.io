@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Human-Robot Collaboration
-description: a game-theoretical approach to human-robot interaction
+description: A Game-theoretical Approach to Human-Robot Interaction
 img: assets/img/6.bayes.png
-importance: 4
+importance: 3
 category: work
 related_publications: true
 ---
