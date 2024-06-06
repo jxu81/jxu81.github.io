@@ -191,15 +191,5 @@ Previews of this project:
 </div>
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/nvidia5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Simulated Pre-load Operation using NASA Valkyrie, made by Under Control Robotics. 
-</div>
-
-
 
 
