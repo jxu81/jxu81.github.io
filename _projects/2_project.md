@@ -75,7 +75,15 @@ In this project, we collaborate with [Hello Robot](https://www.hello-robo.com/) 
     </div>
 </div>
 <div class="caption">
-    Prototypes of the MAKI Robot 
+    Prototypes of the MAKI Robot  
 </div>
 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_1814.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Latest Prototype of the MAKI Robot  
+</div>
