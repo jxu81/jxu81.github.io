@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multi-agent Robot Learning
+title: Multi-agent Reinforcement Learning
 description: Zero-shot Human-AI coordination
 img: assets/img/3.overcook.png
 importance: 3
