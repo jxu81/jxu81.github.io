@@ -14,7 +14,7 @@ Our research focuses on addressing the challenge of coordinating between humans 
 
 We employ the Overcooked environment developed by [Carroll et al.](https://arxiv.org/abs/1910.05789). This environment offers a mix of strategy and motion coordination challenges, making it particularly suitable for training deep reinforcement learning algorithms.
 
-For more information, please check out our recent publications {% cite isbell:pplay:2022 %}. 
+For more information, please check out our recent publications {% cite isbell:pplay:2022 bansal2024leveraging%}. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
