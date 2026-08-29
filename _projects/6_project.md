@@ -15,4 +15,4 @@ Key aspects of the project include:
 - Investigating trust between humans and interactive robots during cognitive problem-solving {%cite xu2018impact xu2018investigating%} and simulated driving scenarios {%cite xu2020much%}.
 - Developing a realistic VR driving scenario based on the Georgia Tech campus {%cite xu2020much %}.
 - Creating a computational framework to model human-robot trust in these scenarios {%cite xu2020would%}.
-- Developing trust repair strategies to restore broken trust and mitigate potential negative outcomes {%cite xu2022evaluating%}. 
+- Developing trust repair strategies to restore broken trust and mitigate potential negative outcomes {%cite xu2022evaluating%}.
