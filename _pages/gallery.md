@@ -10,7 +10,8 @@ nav_order: 9
 <div class="gallery-grid">
   {% assign photos = "Jin+ICRA.png|Jin+NAO.jpg|Jin+OSU.jpg|Jin+Robojacket.jpg|Jin+Robojacket2.jpg|Jin+UPS.jpeg" | split: "|" %}
   {% for photo in photos %}
-    {% include figure.liquid path="assets/img/gallery/{{ photo }}" class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% assign photo_path = "assets/img/gallery/" | append: photo %}
+    {% include figure.liquid path=photo_path class="img-fluid rounded z-depth-1" zoomable=true %}
   {% endfor %}
 </div>
 
